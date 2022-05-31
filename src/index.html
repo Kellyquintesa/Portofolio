@@ -24,7 +24,7 @@
               id="hamburger"
               name="hamburger"
               type="button"
-              class="block absolute right-4"
+              class="block absolute right-4 lg:hidden"
             >
               <span
                 class="hamburger-line transition duration-300 ease-in-out origin-top-left"
@@ -36,6 +36,38 @@
                 class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
               ></span>
             </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute bg-rose-200 py-5 w-full max-w-[180px] right-4 top-full shadow-lg rounded-lg lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-rose-400 py-2 flex"
+                  >
+                    HOME</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-rose-400 py-2 flex"
+                  >
+                    ABOUT</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#projects"
+                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-rose-400 py-2 flex"
+                  >
+                    PROJECTS</a
+                  >
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
@@ -59,7 +91,7 @@
             </h2>
 
             <a
-              href="#"
+              href="#about"
               class="font-base font-bold text-sm text-slate-500 bg-primary py-3 px-8 rounded-md hover:shadow-lg hover:bg-hoverBg hover:text-hoverText transition duration-150 ease-in-out"
               >GET IN TOUCH
             </a>
