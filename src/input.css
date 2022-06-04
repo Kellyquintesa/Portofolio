@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#home h2 {
-  font-family: "Lora", serif;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
 .navbar-fixed {
   @apply fixed z-[9999] bg-white bg-opacity-60;
   backdrop-filter: blur(5px);

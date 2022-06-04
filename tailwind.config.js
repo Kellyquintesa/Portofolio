@@ -7,10 +7,13 @@ module.exports = {
     },
 
     extend: {
+      fontFamily: {
+        primary: ["'Tiro Gurmukhi'", "serif"],
+        secondary: ["'Montserrat'", "sans-serif"],
+      },
       colors: {
-        primary: "#f6d9d2",
+        primary: "#DD7041",
         bio: "#92CAA4",
-        hoverText: "#fff7ed",
         hoverBg: "#d9a79f",
       },
       screens: {

@@ -4,10 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kelly's Portofolio</title>
+
+    <!-- Tiro font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Monsserat  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Tiro+Gurmukhi&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="../src/css/style.css" />
   </head>
-  <body>
+  <body class="font-primary">
     <!-- Header Start -->
     <header
       class="bg-transparent absolute top-0 left-0 z-10 w-full flex items-center"
@@ -15,7 +32,7 @@
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="#home" class="font-bold text-red-400 block py-6"> KQ</a>
+            <a href="#home" class="font-bold text-[#DD7041] block py-6"> KQ</a>
           </div>
 
           <!-- Hamburger mobile view-->
@@ -45,7 +62,7 @@
                 <li class="group">
                   <a
                     href="#home"
-                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-rose-400 py-2 flex"
+                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-primary py-2 flex"
                   >
                     HOME</a
                   >
@@ -53,7 +70,7 @@
                 <li class="group">
                   <a
                     href="#about"
-                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-rose-400 py-2 flex"
+                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-primary py-2 flex"
                   >
                     ABOUT</a
                   >
@@ -61,7 +78,7 @@
                 <li class="group">
                   <a
                     href="#projects"
-                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-rose-400 py-2 flex"
+                    class="text-base text-slate-500 font-semibold mx-8 group-hover:text-primary py-2 flex"
                   >
                     PROJECTS</a
                   >
@@ -80,19 +97,19 @@
         <div class="flex flex-wrap">
           <div class="w-full self-center px-6 lg:w-1/2">
             <h1
-              class="font-semibold text-rose-400 text-xl md:text-2xl lg:text-3xl"
+              class="font-semibold text-[#DD7041] text-xl md:text-2xl lg:text-2xl mb-5"
             >
               Hello. I am Kelly Quintesa 👋
             </h1>
             <h2
-              class="font-semibold mt-3 text-bio mb-20 text-2xl md:text-3xl md:max-w-lg lg:text-4xl"
+              class="font-semibold mt-3 text-bio mb-20 text-2xl md:text-3xl md:max-w-lg lg:text-4xl font-secondary"
             >
               Welcome to my cozy space on the internet
             </h2>
 
             <a
               href="#about"
-              class="font-base font-bold text-sm text-slate-500 bg-primary py-3 px-8 rounded-md hover:shadow-lg hover:bg-hoverBg hover:text-hoverText transition duration-150 ease-in-out"
+              class="font-bold font-secondary text-xs text-[#DD7041] bg-white shadow-md py-3 px-8 rounded-md hover:shadow-lg hover:bg-[#DD7041] hover:text-white transition duration-150 ease-in-out"
               >GET IN TOUCH
             </a>
           </div>
@@ -114,24 +131,30 @@
     <!-- Bio Section Start -->
     <section id="about" class="pt-36 pb-32 bg-orange-50">
       <div class="container">
-        <div class="flex flex-wrap">
-          <div class="w-full px-6 mb-10 lg:w-1/2">
+        <div class="flex flex-wrap justify-center items-center">
+          <div class="w-full items-center lg:max-w-sm">
             <img
-              src="../src/img/mobile device, communication _ pancake, food, breakfast, smartphone, text, chat.png"
-              alt=""
+              src="../src/img/profile.jpg"
+              alt="profilePic"
+              class="rounded-xl max-w-[200px] mx-auto md:max-w-xs lg:max-w-sm shadow-md"
             />
           </div>
 
-          <div class="w-full px-6 lg:w-1/2 lg:pt-40 lg:px-25">
-            <span class="font-bold text-lg uppercase text-rose-400"
+          <div
+            class="w-full mx-4 md:mx-auto lg:mx-auto md:pt-10 md:max-w-lg lg:max-w-[600px] pt-5 justify-center items-center"
+          >
+            <span
+              class="font-bold font-secondary text-sm uppercase text-[#DD7041]"
               >a bit about me</span
             >
-            <p class="text-xl md:text-2xl text-slate-700 mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
-              mollitia sapiente quisquam minus? Dignissimos nesciunt quod iusto
-              amet nihil possimus? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Explicabo iusto sed necessitatibus molestias
-              suscipit voluptate deleniti id debitis facere eos!
+            <p
+              class="font-secondary text-base md:text-xl lg:text-xl text-slate-700 mt-3"
+            >
+              Hi! My name is Kelly Quintesa and i'm an undergraduate software
+              engineer student of Hezhou University China, now i'm focusing to
+              learn by designing and developing various websites/portals in the
+              industry, along with knowledge in HTML, CSS, JavaScript, Next JS
+              etc.
             </p>
 
             <div class="flex mt-10 w-full justify-center">
@@ -146,7 +169,7 @@
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
-                  class="fill-current"
+                  class="fill-current text-slate-700"
                 >
                   <title>LinkedIn</title>
                   <path
@@ -166,7 +189,7 @@
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
-                  class="fill-current"
+                  class="fill-current text-slate-700"
                 >
                   <title>GitHub</title>
                   <path
@@ -186,7 +209,7 @@
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
-                  class="fill-current"
+                  class="fill-current text-slate-700"
                 >
                   <title>Instagram</title>
                   <path
@@ -206,7 +229,7 @@
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
-                  class="fill-current"
+                  class="fill-current text-slate-700"
                 >
                   <title>Gmail</title>
                   <path
@@ -223,11 +246,11 @@
 
     <!-- Portofolio Section Start -->
 
-    <section id="projects" class="pt-30 pb-30 bg-orange-50">
+    <section id="projects" class="lg:pt-40 pb-30 bg-orange-50">
       <div class="container">
         <div class="w-full px-6">
           <h4
-            class="uppercase max-w-full text-center font-semibold text-rose-400 lg:text-4xl mb-10"
+            class="uppercase max-w-full text-center font-semibold text-[#DD7041] text-2xl lg:text-4xl mb-10"
           >
             Projects
           </h4>
@@ -242,21 +265,23 @@
                 class="w-full"
               />
             </div>
-            <div class="mt-8">
-              <h6 class="text-xl">2022</h6>
-              <h1 class="font-bold text-xl lg:text-3xl">Delimeat</h1>
-              <p class="text-base pb-5 lg:text-xl">
+            <div class="mt-8 font-secondary">
+              <h6 class="font-extrabold text-xs text-slate-500">2022</h6>
+              <h1 class="font-bold text-xl lg:text-3xl text-slate-700">
+                Delimeat
+              </h1>
+              <p class="text-base pb-5 lg:text-lg text-slate-500">
                 Allowing easy ordering and delivery experience
               </p>
               <a
                 href="project1.html"
                 target="_blank"
-                class="text-sm lg:text-lg font-medium"
+                class="text-sm lg:text-lg font-semibold text-[#DD7041]"
                 >Learn more →</a
               >
             </div>
           </div>
-          <div class="mb-12 p-4 md:w-1/2 lg:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2 lg:w-1/2 font-secondary">
             <div class="rounded-xl shadow-xl overflow-hidden">
               <img
                 src="../src/img/profilepic.jpg"
@@ -265,12 +290,17 @@
               />
             </div>
             <div class="mt-8">
-              <h6 text-xl>2022</h6>
-              <h1 class="font-bold text-xl lg:text-3xl">Untitled</h1>
-              <p class="text-base pb-5 lg:text-xl">
-                This project will coming soon
+              <h6 class="font-bold text-xs text-slate-500">2020-2022</h6>
+              <h1 class="font-bold text-xl lg:text-3xl text-slate-700">
+                Personal Art
+              </h1>
+              <p class="text-base pb-5 lg:text-lg text-slate-500">
+                Digital Art
               </p>
-              <a href="#" target="_blank" class="text-sm lg:text-lg"
+              <a
+                href="personal-project.html"
+                target="_blank"
+                class="text-sm lg:text-lg font-semibold text-[#DD7041]"
                 >Learn more →</a
               >
             </div>
