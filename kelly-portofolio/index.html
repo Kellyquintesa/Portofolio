@@ -43,6 +43,7 @@
             primary: "#DD7041",
             bio: "#92CAA4",
             hoverBg: "#d9a79f",
+            moviezBg: "#181a20",
           },
           screens: {
             "2xl": "1320px",
@@ -67,7 +68,7 @@
           <div class="flex items-center px-4">
             <button
               id="hamburger"
-              name="hamburger"
+              aria-label="hamburger"
               type="button"
               class="block absolute right-4 lg:hidden"
             >
@@ -190,6 +191,8 @@
               <a
                 href="https://www.linkedin.com/in/kelly-quintesa-4503481a1/"
                 target="_blank"
+                aria-label="linkedin"
+                rel="noopener"
                 class="mr-4 hover:text-blue-800 hover:bg-white hover:rounded-lg"
               >
                 <svg
@@ -210,6 +213,8 @@
               <a
                 href="https://github.com/Kellyquintesa"
                 target="_blank"
+                aria-label="git hub"
+                rel="noopener"
                 class="mr-4 hover:text-white hover:bg-slate-700 hover:rounded-full"
               >
                 <svg
@@ -230,6 +235,8 @@
               <a
                 href="https://www.instagram.com/kellyquin20/"
                 target="_blank"
+                aria-label="instagram"
+                rel="noopener"
                 class="mr-4 hover:bg-pink-400 hover:text-white hover:rounded-lg"
               >
                 <svg
@@ -250,6 +257,7 @@
               <a
                 href="mailto:kellyquintesa11@gmail.com"
                 target="_blank"
+                aria-label="gmail"
                 class="mr-4 hover:text-red-600"
               >
                 <svg
@@ -283,7 +291,7 @@
             Projects
           </h4>
         </div>
-
+<!-- DELIMEAT -->
         <div class="w-full px-6 flex flex-wrap justify-center">
           <div class="mb-12 p-4 md:w-1/2 lg:w-1/2">
             <div class="rounded-xl shadow-xl overflow-hidden">
@@ -305,6 +313,7 @@
               >
             </div>
           </div>
+          <!-- PERSONAL ART -->
           <div class="mb-12 p-4 md:w-1/2 lg:w-1/2 font-secondary">
             <div class="rounded-xl shadow-xl overflow-hidden">
               <img src="images/profilepic.jpg" alt="food-app" class="w-full" />
@@ -325,7 +334,48 @@
               >
             </div>
           </div>
-        </div>
+          <!-- Moviez Zone -->
+          <div class="mb-12 p-4 md:w-1/2 lg:w-1/2 font-secondary">
+            <div class="rounded-xl shadow-xl overflow-hidden">
+              <img src="images/profilepic.jpg" alt="food-app" class="w-full" />
+            </div>
+            <div class="mt-8">
+              <h6 class="font-bold text-xs text-slate-500">2022</h6>
+              <h1 class="font-bold text-xl lg:text-3xl text-slate-700">
+                Moviez Zone
+              </h1>
+              <p class="text-base pb-5 lg:text-lg text-slate-500">
+                Create movie app that showing the popular movie
+              </p>
+              <a
+                href="moviez-zone.html"
+                target="_blank"
+                class="text-sm lg:text-lg font-semibold text-[#DD7041]"
+                >Learn more →</a
+              >
+            </div>
+          </div>
+          <!-- UNTITLED -->
+          <div class="mb-12 p-4 md:w-1/2 lg:w-1/2 font-secondary">
+            <div class="rounded-xl shadow-xl overflow-hidden">
+              <img src="images/profilepic.jpg" alt="food-app" class="w-full" />
+            </div>
+            <div class="mt-8">
+              <h6 class="font-bold text-xs text-slate-500">2022</h6>
+              <h1 class="font-bold text-xl lg:text-3xl text-slate-700">
+                Untitled
+              </h1>
+              <p class="text-base pb-5 lg:text-lg text-slate-500">
+               This project will coming soon
+              </p>
+              <a
+                href=""
+                target="_blank"
+                class="text-sm lg:text-lg font-semibold text-[#DD7041]"
+                >Learn more →</a
+              >
+            </div>
+          </div>
       </div>
     </section>
 

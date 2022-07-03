@@ -7,18 +7,46 @@
     <title>Personal Project</title>
 
     <link rel="stylesheet" href="./style.css" />
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/0bd04eb1ca.js"
       crossorigin="anonymous"
     ></script>
   </head>
+  <script>
+    tailwind.config = {
+      content: ["./src/**/*.{html,js}"],
+      theme: {
+        container: {
+          center: true,
+          padding: "16px",
+        },
+
+        extend: {
+          fontFamily: {
+            primary: ["'Tiro Gurmukhi'", "serif"],
+            secondary: ["'Montserrat'", "sans-serif"],
+          },
+          colors: {
+            primary: "#DD7041",
+            bio: "#92CAA4",
+            hoverBg: "#d9a79f",
+            moviezBg: "#181a20",
+          },
+          screens: {
+            "2xl": "1320px",
+          },
+        },
+      },
+      plugins: [],
+    };
+  </script>
   <body class="font-primary">
     <!-- Gallery Start -->
     <section id="gallery" class="pt-15 bg-[#070831]">
       <div class="container">
         <div class="px-4 flex flex-wrap lg:px-32">
-          <a href="index.html" class="mt-10">
+          <a href="index.html" class="mt-10" aria-label="home">
             <i class="fa-solid fa-angle-left text-2xl text-[#FFF4D6]"> </i>
           </a>
 
